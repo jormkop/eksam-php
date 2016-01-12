@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `if15_Jork`.`woodwork` ;
+
+CREATE TABLE IF NOT EXISTS `if15_Jork`.`woodwork` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `name` VARCHAR(45) NOT NULL COMMENT '',
+  `carved` INT NOT NULL COMMENT '',
+  `painted` INT NOT NULL COMMENT '',
+  `packed` INT NOT NULL COMMENT '',
+  PRIMARY KEY (`id`)  COMMENT '')
+ENGINE = InnoDB;
