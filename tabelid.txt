@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `if15_Jork`.`nikerdused` (
+  `id` INT NOT NULL COMMENT '',
+  `nimi` VARCHAR(45) NOT NULL COMMENT '',
+  `treitud` INT NOT NULL COMMENT '',
+  `lakitud` INT NOT NULL COMMENT '',
+  `pakitud` INT NOT NULL COMMENT '',
+  PRIMARY KEY (`id`)  COMMENT '')
+ENGINE = InnoDB;
